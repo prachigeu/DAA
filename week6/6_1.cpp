@@ -1,4 +1,3 @@
-PROBLEM 1
 #include<iostream>
 #include<stack>
 using namespace std;
