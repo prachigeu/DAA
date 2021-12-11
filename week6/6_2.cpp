@@ -5,13 +5,12 @@ using namespace std;
    1 = Red
    -1 = Blue
 */
-    q.push(s);
-
 bool isBipartite(int **g,int n,int s){
     queue<int>q;
     int color[n]={0};
     int c_color = 1;
     color[s]=c_color;
+    q.push(s);
     while(!q.empty()){
         int u = q.front();
         q.pop();
